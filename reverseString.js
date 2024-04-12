@@ -3,6 +3,9 @@ Routine: reverseString
 Input: String
 Output: Reversed string
 
+NB: Do not use the built-in reverse method
+    Using the 2-pointer approach
+
 Split the input string into an array of characters
 Initilize start index to 0 and end index to the length of the string -1
 Iterate over the string from start to end index
