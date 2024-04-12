@@ -52,5 +52,6 @@ function intervalOverlapDetection(intervals) {
     return stack; // Return the stack containing non-overlapping intervals
     }
     
+    // Example usage
     let intervals = [[10, 13], [12, 25], [4, 32], [7, 15], [2, 8], [9, 35]];
     console.log(intervalOverlapDetection(intervals)); // Expected output: [[2, 35]]

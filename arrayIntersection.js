@@ -15,7 +15,7 @@ function intersection(nums1, nums2) {
     return [...filteredSet];
 }
 
-// Test cases
+// Example usage
 let nums1 = [1, 2, 2, 4, 8, 1];
 let nums2 = [2, 3, 2, 4, 5, 6, 8];
 

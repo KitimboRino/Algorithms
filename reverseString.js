@@ -30,6 +30,6 @@ function reverseString(str) {
     return strArray.join(''); // Return the joined array of characters as a string
 }
 
-// Test cases
+// Example usage
 let str = "RinoKitimbo";
 console.log(reverseString(str)); // obmitiKoniR

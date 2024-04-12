@@ -37,6 +37,7 @@ function binarySearch(array, value) {
   return index;
 }
 
+// Example usage
 let array = [4, 10, 25, 40, 54, 78, 82, 85, 100];
 console.log(binarySearch(array, 82)); // Expected output: 6
 console.log(binarySearch(array, 25)); // Expected output: 2
