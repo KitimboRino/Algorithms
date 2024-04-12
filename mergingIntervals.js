@@ -1,5 +1,11 @@
+
+
 /*
 Routine: intervalOverlapDetection
+
+Usage: - If you hear the term "overlapping intervals".
+       - If you're asked to produce a list with only mutually exclusive intervals
+
 Input: Array of intervals (each interval represented as [start, end])
 Output: Array of non-overlapping intervals
 
@@ -48,5 +54,3 @@ function intervalOverlapDetection(intervals) {
     
     let intervals = [[10, 13], [12, 25], [4, 32], [7, 15], [2, 8], [9, 35]];
     console.log(intervalOverlapDetection(intervals)); // Expected output: [[2, 35]]
-    
-    
