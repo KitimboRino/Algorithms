@@ -51,6 +51,6 @@ function reverseArray(array) {
 }
 
 // Example usage
-console.log(reverseOnlyAlphabetical('sll!$ehaes3')); // Expected output: "dc-ba"
+console.log(reverseOnlyAlphabetical('sll!$ehaes3')); // Expected output: "sll!$ehaes3"
 console.log(reverseOnlyAlphabetical("a-bC-dEf-ghIj")); // Expected output: "j-Ih-gfE-dCba"
 console.log(reverseOnlyAlphabetical("Test1ng-Leet=code-Q!")); // Expected output: "Qedo1ct-eeLg=ntse-T!"

@@ -14,20 +14,20 @@ Iterate over the string from start to end index
 Return the joined array of characters as a string
 */
 
-function reverseString(str) {
-    let strArray = str.split(''); // Split the input string into an array of characters
+function reverseString(string) {
+    let stringArray = str.split(''); // Split the input string into an array of characters
     let startIndex = 0;
-    let endIndex = str.length - 1;
+    let endIndex = string.length - 1;
 
     // Iterate over the string from start to end index
     while (startIndex <= endIndex) {
-        const temp = strArray[startIndex]; // Swap the characters at the start and end index
-        strArray[startIndex] = strArray[endIndex];
-        strArray[endIndex] = temp;
+        const temp = stringArray[startIndex]; // Swap the characters at the start and end index
+        stringArray[startIndex] = stringArray[endIndex];
+        stringArray[endIndex] = temp;
         startIndex++;
         endIndex--;
     }
-    return strArray.join(''); // Return the joined array of characters as a string
+    return stringArray.join(''); // Return the joined array of characters as a string
 }
 
 // Example usage
