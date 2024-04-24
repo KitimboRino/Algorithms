@@ -5,7 +5,7 @@ Output: Array containing common elements between the two arrays
 
 
 Create a set from the first input array
-Filter the second input array to only include elements that exixt in the set created from the first array
+Filter the second input array to only include elements that exist in the set created from the first array
 Return the filtered array as the intersection of the two input arrays
 */
 
