@@ -6,9 +6,10 @@ Routine: cycleSort
 Input: Array of numbers
 Output: Number of operations performed during sorting
 
-Perform cycle sort on the input array
-Count the number of operations performed during sorting
-Return the count of operations
+Steps:
+1. Perform cycle sort on the input array
+2. Count the number of operations performed during sorting
+3. Return the count of operations
 */
 function cycleSort(inputArray) {
     let operations = 0; // Initialize the count of operations

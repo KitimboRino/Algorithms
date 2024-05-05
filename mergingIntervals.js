@@ -9,18 +9,19 @@ Usage: - If you hear the term "overlapping intervals".
 Input: Array of intervals (each interval represented as [start, end])
 Output: Array of non-overlapping intervals
 
-Sort the intervals based on the start time
-Initialize an empty stack
-Push the first interval onto the stack
-Iterate over the sorted intervals starting from the second interval
+Steps:
+1. Sort the intervals based on the start time
+2. Initialize an empty stack
+3. Push the first interval onto the stack
+4. Iterate over the sorted intervals starting from the second interval
 
-Pop the top interval from the stack
-If there is no overlap between the top interval and the current interval:
--- Push the top interval back onto the stack
-If there is an overlap:
--- Create a new interval extending the end time of the top interval to cover the end time of the current interval
--- Push the new interval onto the stack
-Print the stack containing non-overlapping intervals
+5 .Pop the top interval from the stack
+6. If there is no overlap between the top interval and the current interval:
+  -- Push the top interval back onto the stack
+7. If there is an overlap:
+  -- Create a new interval extending the end time of the top interval to cover the end time of the current interval
+  -- Push the new interval onto the stack
+8. Print the stack containing non-overlapping intervals
 */
 
 function intervalOverlapDetection(intervals) {

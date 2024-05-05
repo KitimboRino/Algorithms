@@ -3,9 +3,9 @@ Routine: Majority Element
 Input: Array of integers
 Output: The majority element in the input array, if it exists.
 
-
-Sort the input array in ascending order.
-Reteurn the element at the index Math.floor(nums.length/2), as it will be the majority element.
+Steps:
+1. Sort the input array in ascending order.
+2. Reteurn the element at the index Math.floor(nums.length/2), as it will be the majority element.
 */
 
 function majorityElement(nums) {

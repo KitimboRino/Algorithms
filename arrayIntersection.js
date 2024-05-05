@@ -3,10 +3,10 @@ Routine: Intersection
 Input: Two arrays of numbers
 Output: Array containing common elements between the two arrays
 
-
-Create a set from the first input array
-Filter the second input array to only include elements that exist in the set created from the first array
-Return the filtered array as the intersection of the two input arrays
+Steps:
+1. Create a set from the first input array
+2. Filter the second input array to only include elements that exist in the set created from the first array
+3. Return the filtered array as the intersection of the two input arrays
 */
 
 function intersection(nums1, nums2) {

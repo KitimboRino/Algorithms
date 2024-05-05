@@ -6,12 +6,13 @@ Output: Reversed string
 NB: Do not use the built-in reverse method
     Using the 2-pointer approach
 
-Split the input string into an array of characters
-Initilize start index to 0 and end index to the length of the string -1
-Iterate over the string from start to end index
+Steps:
+1. Split the input string into an array of characters
+2. Initilize start index to 0 and end index to the length of the string -1
+3. Iterate over the string from start to end index
 - Swap the characters at the start and end index
 - Increment the start index and decrement the end index
-Return the joined array of characters as a string
+4. Return the joined array of characters as a string
 */
 
 function reverseString(string) {

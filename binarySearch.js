@@ -3,6 +3,7 @@
  Input: Array of size n, value to find
  Output: Index of value in array. -1 if value is not found
  
+Steps:
   first = 0
   last = n-1
   mid = (first+last)/2
@@ -17,7 +18,8 @@
   search in right sub-array
   else index = mid
   value found
-  return index */
+  return index 
+*/
 
 function binarySearch(array, value) {
   let first = 0;

@@ -3,19 +3,19 @@ Routine: reverseOnlyAlphabetical
 Input: String
 Output: String with alphabetical characters reversed while non-alphabetical characters remain in unchanged.
 
-
-Initialize an empty array to store the alphabetical characters
-Split the input string into an array of characters
-Iterate through each character in the array
-- If the character is an alphabetical character:
-  -- Push the character into the array of alphabetical characters
-Reverse the array of alphabetical characters
-Initialize indexes for the reversed array
-Iterate through each character in the original array
-Iterate through each character in the original array
-- If the character is an alphabetical:
-  -- Replace the character with the character from the reversed array
-Join the array back into a string
+Steps:
+1. Initialize an empty array to store the alphabetical characters
+2. Split the input string into an array of characters
+3. Iterate through each character in the array
+    - If the character is an alphabetical character:
+        -- Push the character into the array of alphabetical characters
+4. Reverse the array of alphabetical characters
+5. Initialize indexes for the reversed array
+6. Iterate through each character in the original array
+7. Iterate through each character in the original array
+    - If the character is an alphabetical:
+        -- Replace the character with the character from the reversed array
+8. Join the array back into a string
 */
 
 function reverseOnlyAlphabetical(string) {

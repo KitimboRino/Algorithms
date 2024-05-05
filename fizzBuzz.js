@@ -3,18 +3,18 @@ Routine: fizzBuzz
 Input: A positive integer n
 Output: String containing the results of the FizzBuzz game from 1 to n
 
-
-Initialize an empty array to store the results
-Iterate from 1 to n
-- If the current number is divisible by 3 and 5:
-  -- Append "FizzBuzz" to the results array
-- Else if the current number is divisible by 3:
-  -- Append "Fizz" to the results array
-- Else if the current number is divisible by 5:
-  -- Append "Buzz" to the results array
-- Else:
-  -- Append the current number to the results array
-Return the results array as a string
+Steps:
+1. Initialize an empty array to store the results
+2. Iterate from 1 to n
+  - If the current number is divisible by 3 and 5:
+    -- Append "FizzBuzz" to the results array
+  - Else if the current number is divisible by 3:
+    -- Append "Fizz" to the results array
+  - Else if the current number is divisible by 5:
+    -- Append "Buzz" to the results array
+  - Else:
+    -- Append the current number to the results array
+3. Return the results array as a string
 */
 
 function fizzBuzz(n) {
