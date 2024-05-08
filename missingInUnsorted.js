@@ -13,9 +13,9 @@ Steps:
 
 function missingInUnsorted(arr, lowerBound, upperBound) {
     // Iterate through array to find the sum of the numbers
-    let sumOfItegers = 0;
+    let sumOfIntegers = 0;
     for (let i = 0; i < arr.length; i++) {
-        sumOfItegers += arr[i];
+        sumOfIntegers += arr[i];
     }
 
     // Find the sum of the numbers in the range
